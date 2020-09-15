@@ -1,54 +1,145 @@
-/*header*/
-header{
-    height: 100vh;
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.8)), url(images1/pic2.jpg) fixed center center  /cover;
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+/*Starting of the Home Page*/
+#topheader{
+    background-color: indianred;
+    border-bottom: 2px solid silver;
 }
-.banner-heading:first-letter{
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 150px;
-
+#topheader a{
+    font-weight: 600;
+    color: black;
+    font-size: 0.86rem;
 }
-.banner-heading img{
-    width: 180px;
-    animation: beating 2s infinite;
+.navbar-brand img{
+    width: 200px;
+    height: 80px;
+    border-radius:50%;
+   
 }
-@keyframes beating{
-    0%{
-        transform: scale(1);
-    }
-    40%{
-        transform: scale(1.1);
-    }
-    60%{
-        transform: scale(1.05);
-    }
-    80%{
-        transform: scale(1.1);
-    }
-    100%{
-        transform: scale(1);
-    }
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
 }
-.pic1{
+.change{
+    font-size: 20px;
+    color: cornsilk;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav ul li a{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.col-md-3 img{
+    width: 100px;
+    height: 80px;
+}
+.full-footer{
+    background-color: rgb(5, 5, 22);
+  
+    width: 100%;
+}
+.p1{
+    color: white;
+}
+.a1{
+    color: white;
+    font-weight: 600;
+}
+.col-md-3{
+    color: white;
+}
+.col-md-3 a{
+    color: white;
+}
+.bottom-footer{
+    color: white;
+}
+.img-fluid{
+    height: 30px;
+    width: 30px;
+    
+}
+.sixth{
+    height: 400px;
+    width: 600px;
+    border-radius: 20%;
+}
+.top-hero-section{
+    background-color: #3498db;
+    color: white;
+}
+.top-hero-section a{
+    color: white;
+    font-weight: 600;
+}
+.btn{
+    color: white;
+}
+.img{
+    height: 100px;
     width: 100px;
 }
-/*end of header*/
+.sect3{
+    background-color: #004d80;
+    color: white;
+}
+.img2{
+    height: 300px;
+    width: 400px;
+}
+.newsletter{
+    background-color: #004d80;
+    color: white;
+}
+.newsletter .form-control{
+    height: 50px;
+    border-color: transparent;
+    border-radius: 20px 0 0 20px;
+}
+.newsletter .btn{
+    min-height: 50px;
+    border-radius: 0 20px 20px 0;
+    color: white;
+    background: #a70664;
+}
+.trusted-clients{
+    background-color: silver;
+}
+/*Starting of the Home Page*/
 
-/*common title*/
-.common-title{
-    display: inline-block;
-    font-size: 3rem;
-    font-weight: 500;
-    text-shadow: 2px 2px 5px #aaa;
-    transition: all .5s ease;
+
+
+
+/*Starting of the About Us Page*/
+
+.bread-crumb-section{
+    background-color: #e9ecef;
 }
-.common-title::first-letter{
-    font-family: cursive;
+#aboutimg{
+    height: 300px;
+    width: 300px;
+    border-radius: 30%;
+    border-color: rgb(12, 11, 12);
 }
-.common-title:hover{
-    transform: translate(-5px, -3px);
-    text-shadow: 2px 5px 20px #aaa;
-    cursor: pointer;
+#team{
+    height: 100px;
+    width: 100px;
+    border-radius: 30%;
 }
-/* end of common title*/
+
+.ff{
+    height: 150px;
+    width: 200px;
+    border-radius: 20%;
+}
+.ss{
+    height: 80px;
+    width: 200px;
+    border-radius: 50%;
+   padding: 5px;
+}
+
+
+
+
+
+/*Ending of the About Us Page*/
